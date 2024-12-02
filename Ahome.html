@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+
+    <style>
+
+        .bb1{
+          border: 2px solid black;
+          height: 50px;
+          width: 1350px;
+          display: flex;
+          background-color: black;
+        }
+        .bb2{
+          border: solid black;
+          height: 50px;
+          width: 337px;
+          color: white;
+          
+        }
+        .bb3{
+          height: 100px;
+          width: 1350px;
+          display: flex;
+        }
+        .bb5{
+          height: 60px;
+          width: 675px;
+        }
+        .bb4{
+          height: 60px;
+          width: 135px;
+        }
+        #im1{
+            border-radius:115px ;
+            height: 70px;
+            width: 130px;
+        }
+        .row{
+            color: white;
+        
+        }
+        .con{
+            background-color: black;
+        }
+        #l1{
+            height: 30px;
+            width: 40px;
+        }
+        .l2{
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+        .ag1{
+            border: 2px solid black;
+            height: 400px;
+            width:1350px ;
+            background-color: darkslategrey;
+        }
+        #ag2{
+            margin-top: 70px;
+            margin-left: 600px;
+        }
+        .button{
+            background-color: orchid;
+            height:40px ;
+            width: 100px;
+            border-radius: 10px;
+        }
+        .wrapper{
+            display: inline-flex;
+        }
+        .wrapper .static-txt{
+            color: antiquewhite;
+            font-size: 60px;
+            font-weight: 400;
+        }
+        .wrapper .dynamic-txts{
+            margin-left: 15px;
+        }
+        .dynamic-txts li{
+            color: aqua;
+            list-style: none;
+            font-size: 60px;
+            font-weight: 500;
+        }
+        .dynamic-txts li span{
+            position: relative;
+        }
+        .dynamic-txts li span::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            border-left: 2px solid gold;
+            animation: typing 1.5s steps(10) infinite;
+        }
+        @keyframes typing{
+            100%{
+                left:100%;
+                margin: 0 -35px 0 35px;
+            }
+        }
+        .conts1{
+            height: 500px;
+            width:1350px ;
+            margin-bottom:30px ;
+        }
+        .conts2{
+            display: flex;
+        }
+        .conts{
+            height: 247px;
+            width: 675px;
+        }
+        #wim1{
+            height: 347px;
+            width:650px;
+        }
+        .lastcontain{
+          border: 2px solid black;
+          height:400px ;
+          width:1350px ; 
+          background-color: black;
+          margin-top: 100px;
+        }
+        .box{
+          color: white;
+          height: 300px;
+          width:310px ;
+          margin-top: 20px;
+          margin-left: 20px;
+          margin-left: 20px;
+        }
+        .parent{
+          display: flex;
+        }
+        #im2{
+          border-radius:115px ;
+            height: 100px;
+            width: 130px;
+        }
+        #im3{
+          height: 20px;
+          width:30px ;
+          margin-left: 9px;
+          margin-top: 10px;
+          margin-right: 5px;
+        }
+        #im4{
+          height: 20px;
+          width:30px ;
+        }
+    </style>
+        </head>
+        <body> 
+          <div class="bb1">
+            <div class="bb2"><img src="image/whatsapp123.png" id="l1">
+              9891136923</div>
+            <div class="bb2"><img src="image/phonecall.png" id="l1">
+              info@vivekitsolution.com</div>
+            <div class="bb2"><img src="image/massagebox.png" id="l1">
+              +91 9891136923</div>
+            <div class="bb2"><a href="https://twitter.com/" class="l2"><img src="image/twitter.png" id="l1"></a><a href="https://www.facebook.com/p/Vivek-It-Solution-100086381926796/" class="l2"><img src="image/facebook.png" id="l1"></a>
+              <a href="https://skype.com/" class="l2"><img src="image/skype.png" id="l1"></a><a href="https://www.youtube.com/@vivekitsolution1633" class="l2"><img src="image/youtube.png" id="l1"></a>
+              <a href="https:/www.instagram.com/vivekitsolution/?r=nametag" class="l2"><img src="image/instagram.png" id="l1"></a></div>
+          </div>
+        
+          <!--------------------------------------navbar start------------------------------------------------------------->
+          <div class="bb3">
+            <div class="bb5"> <img src="image/webpicture.png" id="im1"></div>
+            <div class="bb4"><a href="Ahome.html">Home</a></div>
+            <div class="bb4"><a href="Aaboutus.html">About Us</a></div>
+            <div class="bb4"><a href="Acourses.html">Courses</a></div>
+            <div class="bb4"><a href="Acareer.html">Career</a></div>
+            <div class="bb4"><a href="Acontact.html">Contacts</a></div>
+          </div>
+         
+           
+          
+          <!-------------------------------------------navbarend-------------------------------------->
+
+          <div class="ag1">
+            <div class="wrapper">
+            <div class="static-txt">Welcome To</div>
+            <ul class="dynamic-txts">
+         <li><span>Vivek</span></li>
+         <li><span>IT</span></li>
+         <li><span>Solution</span></li>
+
+            </ul>
+            </div>
+
+           <div id="ag2"><a href="Register.html"><input type="submit" class="button" value="Register"></a></div>
+    
+          </div>
+          <!--------------------------------------------------------------------------------------------------------------->
+
+          <h1 align="center" class="test">Testimonial</h1>
+
+          <div class="conts1">
+            <div class="conts2">
+            <div class="conts"><h1>''</h1>
+                <p>Very good place to learn digital and web designing course.<br>
+                Great learning platform to explore your knowledge and grow your carrier with vivek sir.</p><h1>,,</h1><br><br>
+                </div>
+            <div class="conts"><h1>''</h1>
+                <p>The twitter are very approchable and available to answer any question at any time<br>
+                instead of being from a mechanical engineering bacground the institute helpme learning new technology IT world <br>
+              and help me grab a job in reputed firm</p><h1>,,</h1>
+                </div></div>
+
+            <div class="conts2">
+            <div class="conts"> <img src="image/webdesign.jfif" id="wim1"></div>
+            <div class="conts"> <img src="image/homepage.jpg" id="wim1"></div></div>
+          </div>
+<!--------------------------------------------------------------------------------------------------------->
+
+<div class="lastcontain">
+    <div class="parent">
+      <div class="box"><img src="image/webpicture.png" id="im2"><br>
+        <a href="https://twitter.com/" class="l2"><img src="image/twitter.png" id="im3"></a><a href="https://www.facebook.com/p/Vivek-It-Solution-100086381926796/" class="l2"><img src="image/facebook.png" id="im3"></a>
+            <a href="https://skype.com/" class="l2"><img src="image/skype.png" id="im3"></a><a href="https://www.youtube.com/@vivekitsolution1633" class="l2"><img src="image/youtube.png" id="im3"></a>
+            <a href="https:/www.instagram.com/vivekitsolution/?r=nametag" class="l2"><img src="image/instagram.png" id="im3"></a>
+    <!--------------------------------------------------------box2--------------------------------------------------------------------------->        
+      </div>
+      <div class="box"><h5>Quick Link<hr></h5><img src="image/arrow.png" id="im4">Home
+      <br><img src="image/arrow.png" id="im4">About<br><img src="image/arrow.png" id="im4">Courses<br>
+      <pre>       Address:-GH 47 Top Floor,
+       Beside Mataji Ka Mandir 
+       Scheme No.54,Near Perfect 
+       Bekery Vijay Nagar Indore
+       452010[Head office]
+      </pre>  
+      </div>
+      <!--------------------------------------------------box3-------------------------------------------------------------------------------------->
+    
+    <div class="box"><h5>Quick Link<hr></h5><img src="image/arrow.png" id="im4">Career
+    <br><img src="image/arrow.png" id="im4">Register<br><img src="image/arrow.png" id="im4">Contact<br>
+    <pre>       Time square,above of puma
+     showroom 202, near tower 
+     chowk,(Bhawarkua) 452001 
+    </pre>  
+    </div>
+<!-----------------------------------------------------------box4--------------------------------------------------------------------------------------->
+
+<div class="box"><h5>Contact Us<hr></h5><img src="image/location.jfif" id="im4">India
+  <br><img src="image/emailbox.png" id="im4">info@vivekitsolution.com<br><img src="image/callgreen.png" id="im4">+91 9891136923<br>
+  </div>
+    </div>
+
+</div>
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
